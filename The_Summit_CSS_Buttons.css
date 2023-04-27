@@ -1,0 +1,100 @@
+a{
+    font-style: bold;
+    color: gray;
+    text-decoration: underline;
+    cursor:pointer;
+  }
+  
+  a:hover{
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+  color: #5495ff;
+  
+  }
+  
+  .btn {
+    background-color: #2176FF;
+    border: 3px #ffffff solid;
+    border-radius: 40px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    padding:20px;
+    text-decoration: uppercase;
+    cursor: pointery;
+    border-color: #ffffff;
+    box-shadow: 5px 5px 10px #2176FF ;
+    
+  }
+  
+  .btn:hover{
+    text-decoration: none;
+    transition: 2s ease-in-out;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    color: #2176FF;
+    box-shadow: 15px 15px 20px #2176FF ;
+    border: 5px #2176FF solid;
+  }
+  
+  .btn:active{
+    background-color: #2176FF;
+    transition: none;
+    color: #ffffff;
+  
+  }
+  
+  .activity{
+    background-color: #2176FF;
+    border: 3px #ffffff solid;
+    border-radius: 120px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    text-decoration: uppercase;
+    cursor: pointery;
+    border-color: #ffffff;
+    box-shadow: 5px 5px 10px #2176FF ;
+  }
+  
+  
+  .activity:hover{
+    background-color: #ffffff;
+    border: 3px #2176FF solid;
+    border-radius: 120px;
+    color: #2176FF;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    padding: 0px;
+    text-decoration: uppercase;
+    cursor: pointery;
+    border-color: #2176FF;
+    box-shadow: 10px 10px 20px #2176FF;
+    transition: 1s;
+    font-weight: bold;
+  }
+  
+  .activity:active{
+    background-color: #ffffff;
+    border: 3px #2176FF solid;
+    border-radius: 120px;
+    color: #2176FF;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    padding: 0px;
+    text-decoration: uppercase;
+    cursor: pointery;
+    border-color: #2176FF;
+    box-shadow: none;
+    transition: none;
+    font-weight: bold;
+  }
